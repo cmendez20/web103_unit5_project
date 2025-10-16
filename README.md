@@ -2,9 +2,9 @@
 
 Submitted by: **Christopher Mendez**
 
-About this web app: **Create and customize your own custom car!**
+About this web app: **Create and customize your own car!**
 
-Time spent: **X** hours
+Time spent: **1** hours
 
 ## Required Features
 
@@ -12,8 +12,8 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 
-- [ ] **The web app uses React to display data from the API.**
-- [ ] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
+- [x] **The web app uses React to display data from the API.**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
   - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
   - [ ] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT \* FROM tablename;' to display your table contents.**
 - [ ] **Users can view **multiple** features of the `CustomItem` (e.g. car) they can customize, (e.g. wheels, exterior, etc.)**
@@ -32,24 +32,13 @@ The following **optional** features are implemented:
 
 - [ ] Selecting particular options prevents incompatible options from being selected even before form submission
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-
-GIF created with ... GIF tool here
-
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LICEcap
 
 ## Notes
 
