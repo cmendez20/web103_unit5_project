@@ -4,18 +4,16 @@ Submitted by: **Christopher Mendez**
 
 About this web app: **Create and customize your own car!**
 
-Time spent: **3** hours
+Time spent: **7** hours
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-<!-- Make sure to check off completed functionality below -->
-
 - [x] **The web app uses React to display data from the API.**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured `CustomItem` table.**
-  - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT \* FROM tablename;' to display your table contents.**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x] **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT \* FROM tablename;' to display your table contents.**
 - [x] **Users can view **multiple** features of the `CustomItem` (e.g. car) they can customize, (e.g. wheels, exterior, etc.)**
 - [x] **Each customizable feature has multiple options to choose from (e.g. exterior could be red, blue, black, etc.)**
 - [x] **On selecting each option, the displayed visual icon for the `CustomItem` updates to match the option the user chose.**
@@ -24,9 +22,9 @@ The following **required** functionality is completed:
 - [x] **The user can submit their choices to save the item to the list of created `CustomItem`s.**
 - [x] **If a user submits a feature combo that is impossible, they should receive an appropriate error message and the item should not be saved to the database.**
 - [x] **Users can view a list of all submitted `CustomItem`s.**
-- [ ] **Users can edit a submitted `CustomItem` from the list view of submitted `CustomItem`s.**
+- [x] **Users can edit a submitted `CustomItem` from the list view of submitted `CustomItem`s.**
 - [x] **Users can delete a submitted `CustomItem` from the list view of submitted `CustomItem`s.**
-- [ ] **Users can update or delete `CustomItem`s that have been created from the detail page.**
+- [x] **Users can update or delete `CustomItem`s that have been created from the detail page.**
 
 The following **optional** features are implemented:
 
@@ -36,7 +34,8 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Here's a walkthrough of implemented required features:
+![WEB 103 Project 05 Project Demo](unit5-project-demo.gif)
 
 GIF created with LICEcap
 
