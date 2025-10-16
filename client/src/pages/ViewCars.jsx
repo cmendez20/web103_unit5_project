@@ -12,10 +12,15 @@ const ViewCars = () => {
   const query = useQuery({ queryKey: ['cars'], queryFn: getCars });
 
   if (query.isLoading) {
-    return <div className="loadingMessage">Fetching all custom cars</div>;
+    return (
+      <div className="loadingMessage">
+        <p>Fetching all custom cars</p>
+      </div>
+    );
   }
   return (
     <div>
+      <h2>List of All Custom Cars</h2>
       {query.isFetched && query.data.length < 1
         ? 'No custom cars available'
         : query.data.map(car => <CarCard key={car.id} props={car} />)}
