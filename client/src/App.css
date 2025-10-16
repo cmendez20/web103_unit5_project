@@ -21,3 +21,9 @@
   place-items: center;
   font-weight: bold;
 }
+
+.button-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}

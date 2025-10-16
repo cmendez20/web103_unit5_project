@@ -1,4 +1,5 @@
 import carCardStyles from './CarCard.module.css';
+import { Link } from 'react-router-dom';
 
 export function CarCard({ props }) {
   return (
@@ -21,6 +22,10 @@ export function CarCard({ props }) {
       <p>
         <strong>Price:</strong> ${props.price}
       </p>
+
+      <Link to={`/customcars/${props.id}`} state={props} role="button">
+        Details
+      </Link>
     </div>
   );
 }
