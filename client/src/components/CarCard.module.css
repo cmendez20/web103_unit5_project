@@ -1,0 +1,14 @@
+.card {
+  margin-top: 2rem;
+  background-color: black;
+  max-width: 350px;
+  margin-inline: auto;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  padding-block: 1rem;
+}
+
+.card p {
+  color: #eee;
+  text-align: center;
+}
