@@ -1,0 +1,40 @@
+// get all cars
+GET http://localhost:3000/api/cars
+
+### 
+
+// get a single car
+GET http://localhost:3000/api/cars/3
+
+###
+// create a new car
+POST http://localhost:3000/api/cars
+content-type: application/json
+
+{
+  "name": "test car",
+  "exterior_color": "blue",
+  "roof": "drop top",
+  "wheels": "titanium",
+  "interior": "wood",
+  "price": "30000.00"
+}
+
+###
+// update a car
+PATCH  http://localhost:3000/api/cars/3
+content-type: application/json
+
+{
+  "name": "test car update",
+  "exterior_color": "blue",
+  "roof": "drop top",
+  "wheels": "titanium",
+  "interior": "wood",
+  "price": "30000.00"
+}
+
+
+###
+// delete a car
+DELETE http://localhost:3000/api/cars/4
