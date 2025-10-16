@@ -41,7 +41,7 @@ GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+I utilized react hook form & tanstack query to minimize the react boilerplate code for submitting form data & fetching requests.
 
 ## License
 
