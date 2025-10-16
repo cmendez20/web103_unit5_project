@@ -1,5 +1,18 @@
 import { useForm } from 'react-hook-form';
+import { useQueryClient, useMutation } from '@tanstack/react-query';
+import { useNavigate } from 'react-router-dom';
+
 import '../App.css';
+
+async function addCar(carDetails) {
+  await fetch('/api/cars', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(carDetails),
+  });
+}
 
 const CreateCar = () => {
   const {
@@ -8,7 +21,19 @@ const CreateCar = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = data => console.log(data);
+  const queryClient = useQueryClient();
+  const navigate = useNavigate();
+
+  const mutation = useMutation({
+    mutationFn: addCar,
+    onSuccess: async () => {
+      // Invalidate and refetch
+      await queryClient.invalidateQueries({ queryKey: ['cars'] });
+      navigate('/customcars');
+    },
+  });
+
+  const onSubmit = data => mutation.mutate(data);
 
   return (
     <div>
