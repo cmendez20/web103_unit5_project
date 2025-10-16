@@ -38,6 +38,7 @@ async function createCar(req, res) {
 async function updateCar(req, res) {
   try {
     const id = parseInt(req.params.id);
+    console.log('update car id: ' + id);
     const { name, exterior_color, roof, wheels, interior, price } = req.body;
     const results = await pool.query(
       `

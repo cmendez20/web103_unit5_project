@@ -44,7 +44,7 @@ export function CarCardDetails({ props }) {
           <strong>Price:</strong> ${props.price}
         </p>
         <div className="button-container">
-          <Link to={`/customcars/${props.id}`} state={props} role="button">
+          <Link to={`/edit/${props.id}`} state={props} role="button">
             EDIT
           </Link>
           <button
