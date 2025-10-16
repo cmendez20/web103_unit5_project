@@ -32,3 +32,13 @@ form {
   max-width: 500px;
   margin-inline: auto;
 }
+
+span {
+  display: block;
+  color: rgb(115, 2, 12);
+  background-color: #eee;
+  margin-top: -1rem;
+  padding-inline: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
