@@ -33,8 +33,6 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-Here's a walkthrough of implemented required features:
 ![WEB 103 Project 05 Project Demo](unit5-project-demo.gif)
 
 GIF created with LICEcap
